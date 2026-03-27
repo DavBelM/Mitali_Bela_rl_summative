@@ -1,6 +1,7 @@
-# Project dependencies MANDATORY
-gymnasium
-stable-baselines3[extra]
-numpy
-pygame
-matplotlib
+gymnasium==0.29.1
+stable-baselines3==2.3.2
+pygame==2.5.2
+torch==2.2.2
+numpy==1.26.4
+matplotlib==3.8.4
+sb3-contrib==2.3.0
