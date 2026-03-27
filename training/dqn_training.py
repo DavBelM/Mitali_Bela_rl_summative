@@ -53,7 +53,7 @@ def train_dqn(
     train_freq=4,
     total_timesteps=40000,
     student_profile="average",
-    verbose=1,
+    verbose=0,
 ):
     """
     Train a DQN agent on the EduCode environment.
