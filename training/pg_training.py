@@ -197,7 +197,7 @@ def train_ppo(
     gae_lambda=0.95,
     total_timesteps=40000,
     student_profile="average",
-    verbose=1,
+    verbose=0,
 ):
     env      = make_env(profile=student_profile)
     eval_env = make_env(profile=student_profile)
@@ -261,7 +261,7 @@ def train_a2c(
     gae_lambda=1.0,
     total_timesteps=40000,
     student_profile="average",
-    verbose=1,
+    verbose=0,
 ):
     env      = make_env(profile=student_profile)
     eval_env = make_env(profile=student_profile)
