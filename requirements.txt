@@ -1,0 +1,6 @@
+# Project dependencies MANDATORY
+gymnasium
+stable-baselines3[extra]
+numpy
+pygame
+matplotlib
