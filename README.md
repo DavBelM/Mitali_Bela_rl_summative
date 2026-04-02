@@ -1,6 +1,6 @@
 # EduCode Rwanda - Reinforcement Learning Tutor Agent
 
-**[🎬 Watch the Demo Video Here](#)** *(Replace `#` with your video link)*
+**[🎬 Watch the Demo Video Here](https://youtu.be/wBTYQVl-yt4)**
 
 This project implements a reinforcement learning environment that simulates
 an AI tutor navigating a student's learning journey through Rwanda's TVET
@@ -48,16 +48,19 @@ python main.py --mode random --episodes 3 --profile average
 ## Training the Agents
 
 Train DQN (all 10 hyperparameter runs):
+
 ```bash
 python training/dqn_training.py
 ```
 
 Train policy gradient methods:
+
 ```bash
 python training/pg_training.py --algo all
 ```
 
 Run a specific algorithm:
+
 ```bash
 python training/pg_training.py --algo ppo
 python training/pg_training.py --algo a2c
@@ -71,11 +74,13 @@ python main.py --mode trained --algo ppo --episodes 5 --profile average
 ```
 
 For a struggling student profile:
+
 ```bash
 python main.py --mode trained --algo ppo --profile struggling
 ```
 
 Without the GUI (terminal only):
+
 ```bash
 python main.py --mode trained --algo ppo --no_render
 ```
@@ -86,6 +91,7 @@ The agent (AI tutor) observes 9 continuous values describing the student's
 current state and chooses from 8 discrete instructional actions.
 
 Observation space:
+
 - current topic index (normalised)
 - mastery of current topic
 - recent error rate
@@ -97,6 +103,7 @@ Observation space:
 - fraction of topics completed
 
 Actions:
+
 - 0: explain concept
 - 1: give easy exercise
 - 2: give hard exercise
