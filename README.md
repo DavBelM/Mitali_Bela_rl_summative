@@ -1,5 +1,7 @@
 # EduCode Rwanda - Reinforcement Learning Tutor Agent
 
+**[🎬 Watch the Demo Video Here](#)** *(Replace `#` with your video link)*
+
 This project implements a reinforcement learning environment that simulates
 an AI tutor navigating a student's learning journey through Rwanda's TVET
 Level 3 JavaScript curriculum. The agent decides what instructional action
